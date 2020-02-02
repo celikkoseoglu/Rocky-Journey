@@ -1,0 +1,38 @@
+Release 14.7 ngdbuild P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Command Line: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\ngdbuild.exe -intstyle
+ise -dd _ngo -nt timestamp -uc RockyJourneyIO.ucf -p xc3s100e-cp132-5
+Task2Proper.ngc Task2Proper.ngd
+
+Reading NGO file "C:/RockyJourney/Task2Proper.ngc" ...
+Loading design module "C:\RockyJourney/Task2Proper.ngc"...
+WARNING:NgdBuild:578 - Design contains no instances.
+Gathering constraint information from source properties...
+Done.
+
+Annotating constraints to design from ucf file "RockyJourneyIO.ucf" ...
+Resolving constraint associations...
+Checking Constraint Associations...
+Done...
+
+Checking expanded design ...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   1
+
+Total memory usage is 146904 kilobytes
+
+Writing NGD file "Task2Proper.ngd" ...
+Total REAL time to NGDBUILD completion:  2 sec
+Total CPU time to NGDBUILD completion:   1 sec
+
+Writing NGDBUILD log file "Task2Proper.bld"...

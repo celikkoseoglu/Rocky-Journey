@@ -1,0 +1,747 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.NUMERIC_STD.all;
+
+entity rgb is
+
+port(
+	CLOCK : in  STD_LOGIC;--50 MHz
+	OE:inout std_logic;--output enable
+	SH_CP:OUT STD_LOGIC;--shift register clock pulse
+	ST_CP:OUT STD_LOGIC;--store register clock pulse
+	reset:OUT STD_LOGIC;--shift register i?in reset
+	DS : out  std_logic;--digital signal
+	KATOT : out  STD_LOGIC_VECTOR (7 downto 0)
+);
+
+end RGB;
+
+architecture Behavioral of rgb is
+
+
+signal mesaj:std_logic_vector(23 downto 0);
+alias kirmizi : Std_Logic_Vector(7 downto 0) is mesaj(23 downto 16) ;
+alias yesil : Std_Logic_Vector(7 downto 0) is mesaj(15 downto 8) ;
+alias mavi : Std_Logic_Vector(7 downto 0) is mesaj(7 downto 0) ;
+
+signal f:std_logic;
+signal e:std_logic;
+
+begin
+	process(clock)
+
+	variable counter: unsigned(7 downto 0);
+	variable i:integer range 419 downto 0:=0;--data signalin seri olarak iletilmesini kontrol eder.
+	variable a:integer range 7 downto 0:=0;
+	variable d:integer range 800 downto 0:=0;
+
+begin
+	if rising_edge(clock) then --registerlar i?in clock ?retmek i?in kullan?l?yor.
+		counter:=counter+1;
+	end if;
+
+
+	f<=counter(7); --shift register i?in saat sinyali
+	e<=not f;
+
+
+	if rising_edge(e) then --seri olarak datay? almak i?in her clock pulse tan sonra i bir artt?r?l?yor.
+		i:=i+1;
+	end if;
+
+
+	if i<3 then  --ba?lang??ta i 4'e gelene kadar sisteme reset at?l?r.
+		reset<='0';
+	else
+		reset<='1';
+	end if;
+
+
+	if i>2 and i<27 then--4'le 27 aras?nda data ak??? seri olarak.
+		DS<=mesaj(i-3);
+	else 
+		DS<='0';
+	end if;
+
+
+	if i<27 then--i 28'e geldi?inde data ak??? datamlan?yor.24 bit data al?nm?? oluyor. bu sureden sonra clock durduluyor yeni data ak???na kadar.
+		SH_CP<=f;             
+		ST_CP<=e;
+	else
+		SH_CP<='0';
+		ST_CP<='1';
+	end if;
+
+	if rising_edge(f) then--clock un durdu?u surede OE=0 yani output registerin ??k???nda aktif durumda.
+		if (i>27 and i<408) then
+			oe<='0';
+		else
+			oe<='1';
+		end if;
+	end if;
+
+
+	if rising_edge(f) then--bir sat?r tamamland???nda a bir artt?r?l?yor 2. sat?ra ge?mek i?in.
+		if i=409 then
+			a:=a+1;
+		end if;
+	end if;
+
+	if rising_edge(f) then--satrlar ve sutunlar tamamland???nda yeni g?r?nt? i?in(ful ekran) d bir artt?r?l?yor.
+		if i=409 then
+			if a=7 then
+				d:=d+1;
+			end if;
+		end if;
+	end if;
+
+--a katotlar? taramak i?in kullan?l?yor.
+                
+	if a=0 then
+		katot<="10000000";
+	elsif a=1 then
+		katot<="01000000";
+	elsif a=2 then
+		katot<="00100000";
+	elsif a=3 then
+		katot<="00010000";
+	elsif a=4 then
+		katot<="00001000";
+	elsif a=5 then
+		katot<="00000100";
+	elsif a=6 then
+		katot<="00000010";
+	else
+		katot<="00000001";
+	end if;
+
+
+	if d<25 then--en d??a mavi kare olu?turur.(d 50'ye gelene kadar ekranda g?sterilecek ?ekil yarat?l?yor.
+
+		if a=0 then
+			kirmizi<="00000000";
+			mavi<="11111111";
+			yesil<="00000000";
+
+		elsif a=1 then
+			kirmizi<="00000000";
+			mavi<="10000001";
+			yesil<="00000000";
+	
+		elsif a=2 then
+			kirmizi<="00000000";
+			mavi<="10000001";
+			yesil<="00000000";
+
+		elsif a=3 then
+			kirmizi<="00000000";
+			mavi<="10000001";
+			yesil<="00000000";
+
+		elsif a=4 then
+			kirmizi<="00000000";
+			mavi<="10000001";
+			yesil<="00000000";
+
+		elsif a=5 then
+			kirmizi<="00000000";
+			mavi<="10000001";
+			yesil<="00000000";
+
+		elsif a=6 then
+			kirmizi<="00000000";
+			mavi<="10000001";
+			yesil<="00000000";
+
+		else
+			kirmizi<="00000000";
+			mavi<="11111111";
+			yesil<="00000000";
+
+		end if;
+	elsif d<50 then
+
+		if a=0 then
+			kirmizi<="00000000";
+			mavi<="11111111";
+			yesil<="00000000";
+
+		elsif a=1 then
+			kirmizi<="01111110";
+			mavi<="10000001";
+			yesil<="00000000";
+
+		elsif a=2 then
+			kirmizi<="01000010";
+			mavi<="10000001";
+			yesil<="00000000";
+
+		elsif a=3 then
+			kirmizi<="01000010";
+			mavi<="10000001";
+			yesil<="00000000";
+
+		elsif a=4 then
+			kirmizi<="01000010";
+			mavi<="10000001";
+			yesil<="00000000";
+
+		elsif a=5 then
+			kirmizi<="01000010";
+			mavi<="10000001";
+			yesil<="00000000";
+
+		elsif a=6 then
+			kirmizi<="01111110";
+			mavi<="10000001";
+			yesil<="00000000";
+
+		else
+			kirmizi<="00000000";
+			mavi<="11111111";
+			yesil<="00000000";
+
+		end if;
+                
+	elsif d<75 then
+                
+		if a=0 then
+			kirmizi<="00000000";
+			mavi<="11111111";
+			yesil<="00000000";
+
+		elsif a=1 then
+			kirmizi<="01111110";
+			mavi<="10000001";
+			yesil<="00000000";
+
+		elsif a=2 then
+			kirmizi<="01000010";
+			mavi<="10000001";
+			yesil<="00111100";
+
+		elsif a=3 then
+			kirmizi<="01000010";
+			mavi<="10000001";
+			yesil<="00100100";
+
+		elsif a=4 then
+			kirmizi<="01000010";
+			mavi<="10000001";
+			yesil<="00100100";
+
+		elsif a=5 then
+			kirmizi<="01000010";
+			mavi<="10000001";
+			yesil<="00111100";
+
+		elsif a=6 then
+			kirmizi<="01111110";
+			mavi<="10000001";
+			yesil<="00000000";
+
+		else
+			kirmizi<="00000000";
+			mavi<="11111111";
+			yesil<="00000000";
+
+		end if;
+
+	elsif d<100 then
+                
+		if a=0 then
+			kirmizi<="00000000";
+			mavi<="11111111";
+			yesil<="00000000";
+
+		elsif a=1 then
+			kirmizi<="01111110";
+			mavi<="10000001";
+			yesil<="00000000";
+
+		elsif a=2 then
+			kirmizi<="01000010";
+			mavi<="10000001";
+			yesil<="00111100";
+
+		elsif a=3 then
+			kirmizi<="01011010";
+			mavi<="10011001";
+			yesil<="00111100";
+
+		elsif a=4 then
+			kirmizi<="01011010";
+			mavi<="10011001";
+			yesil<="00111100";
+
+		elsif a=5 then
+			kirmizi<="01000010";
+			mavi<="10000001";
+			yesil<="00111100";
+
+		elsif a=6 then
+			kirmizi<="01111110";
+			mavi<="10000001";
+			yesil<="00000000";
+
+		else
+			kirmizi<="00000000";
+			mavi<="11111111";
+			yesil<="00000000";
+
+		end if;
+
+
+	elsif d<125 then --ortadaki kare s?n?k
+
+        	if a=0 then
+			kirmizi<="00000000";
+			mavi<="11111111";
+			yesil<="00000000";
+
+		elsif a=1 then
+			kirmizi<="01111110";
+			mavi<="10000001";
+			yesil<="00000000";
+
+		elsif a=2 then
+			kirmizi<="01000010";
+			mavi<="10000001";
+			yesil<="00111100";
+
+		elsif a=3 then
+			kirmizi<="01000010";
+			mavi<="10000001";
+			yesil<="00100100";
+
+		elsif a=4 then
+			kirmizi<="01000010";
+			mavi<="10000001";
+			yesil<="00100100";
+
+		elsif a=5 then
+			kirmizi<="01000010";
+			mavi<="10000001";
+			yesil<="00111100";
+
+		elsif a=6 then
+			kirmizi<="01111110";
+			mavi<="10000001";
+			yesil<="00000000";
+
+		else
+			kirmizi<="00000000";
+			mavi<="11111111";
+			yesil<="00000000";
+
+		end if;
+
+	elsif d<150 then--kirmizi+ye?il
+        
+		if a=0 then
+
+			kirmizi<="00000000";
+			mavi<="11111111";
+			yesil<="00000000";
+
+		elsif a=1 then
+			kirmizi<="01111110";
+			mavi<="10000001";
+			yesil<="00000000";
+
+		elsif a=2 then
+			kirmizi<="01000010";
+			mavi<="10000001";
+			yesil<="00111100";
+
+		elsif a=3 then
+			kirmizi<="01011010";
+			mavi<="10000001";
+			yesil<="00111100";
+
+		elsif a=4 then
+			kirmizi<="01011010";
+			mavi<="10000001";
+			yesil<="00111100";
+
+		elsif a=5 then
+			kirmizi<="01000010";
+			mavi<="10000001";
+			yesil<="00111100";
+
+		elsif a=6 then
+			kirmizi<="01111110";
+			mavi<="10000001";
+			yesil<="00000000";
+
+		else
+			kirmizi<="00000000";
+			mavi<="11111111";
+			yesil<="00000000";
+
+		end if;
+
+	elsif d<175 then--mavi+kirmizi
+        
+		if a=0 then
+			kirmizi<="00000000";
+			mavi<="11111111";
+			yesil<="00000000";
+
+		elsif a=1 then
+			kirmizi<="01111110";
+			mavi<="10000001";
+			yesil<="00000000";
+
+		elsif a=2 then
+			kirmizi<="01000010";
+			mavi<="10000001";
+			yesil<="00111100";
+
+		elsif a=3 then
+			kirmizi<="01011010";
+			mavi<="10011001";
+			yesil<="00100100";
+
+		elsif a=4 then
+			kirmizi<="01011010";
+			mavi<="10011001";
+			yesil<="00100100";
+
+		elsif a=5 then
+			kirmizi<="01000010";
+			mavi<="10000001";
+			yesil<="00111100";
+
+		elsif a=6 then
+			kirmizi<="01111110";
+			mavi<="10000001";
+			yesil<="00000000";
+
+		else
+			kirmizi<="00000000";
+			mavi<="11111111";
+			yesil<="00000000";
+
+		end if;
+
+	elsif d<200 then--ye?il+mavi
+
+		if a=0 then
+			kirmizi<="00000000";
+			mavi<="11111111";
+			yesil<="00000000";
+
+		elsif a=1 then
+			kirmizi<="01111110";
+			mavi<="10000001";
+			yesil<="00000000";
+
+		elsif a=2 then
+			kirmizi<="01000010";
+			mavi<="10000001";
+			yesil<="00111100";
+
+		elsif a=3 then
+			kirmizi<="01000010";
+			mavi<="10011001";
+			yesil<="00111100";
+
+		elsif a=4 then
+			kirmizi<="01000010";
+			mavi<="10011001";
+			yesil<="00111100";
+
+		elsif a=5 then
+			kirmizi<="01000010";
+			mavi<="10000001";
+			yesil<="00111100";
+
+		elsif a=6 then
+			kirmizi<="01111110";
+			mavi<="10000001";
+			yesil<="00000000";
+
+		else
+			kirmizi<="00000000";
+			mavi<="11111111";
+			yesil<="00000000";
+
+		end if;
+
+	elsif ((d>400 and d<420) or (d>440 and d<460) or (d>440 and d<460) or (d>480 and d<500) or (d>520 and d<540) or (d>560 and d<580) or (d>600)) then  --g?len surat
+
+		if a=7 then--1.SUTUNU KONTROL EDER
+			kirmizi<="00000100";
+			mavi<="00000000";
+			yesil<="00000000";
+
+		elsif a=6 then
+			kirmizi<="00001000";
+			mavi<="00000100";
+			yesil<="00000000";
+
+		elsif a=5 then
+			kirmizi<="00000000";
+			mavi<="00000010";
+			yesil<="00100000";
+
+		elsif a=4 then
+			kirmizi<="00000001";
+			mavi<="00000010";
+			yesil<="00000000";
+
+		elsif a=3 then
+			kirmizi<="00000001";
+			mavi<="00000010";
+			yesil<="00000000";
+
+		elsif a=2 then
+			kirmizi<="00000000";
+			mavi<="00000010";
+			yesil<="00100000";
+
+		elsif a=1 then
+			kirmizi<="00001000";
+			mavi<="00000100";
+			yesil<="00000000";
+
+		else
+			kirmizi<="00000100";
+			mavi<="00000000";
+			yesil<="00000000";
+
+		end if;
+
+	else
+        
+		if a=7 then--1.SUTUNU KONTROL EDER
+			kirmizi<="00000000";
+			mavi<="00000000";
+			yesil<="00000000";
+
+		elsif a=6 then
+			kirmizi<="00000000";
+			mavi<="00000100";
+			yesil<="00000000";
+
+		elsif a=5 then
+			kirmizi<="00000000";
+			mavi<="00000010";
+			yesil<="00010000";
+
+		elsif a=4 then
+			kirmizi<="00000000";
+			mavi<="00000010";
+			yesil<="00000000";
+
+		elsif a=3 then
+			kirmizi<="00000000";
+			mavi<="00000010";
+			yesil<="00000000";
+
+		elsif a=2 then
+			kirmizi<="00000000";
+			mavi<="00000010";
+			yesil<="00010000";
+
+		elsif a=1 then
+			kirmizi<="00000000";
+			mavi<="00000100";
+			yesil<="00000000";
+
+		else
+			kirmizi<="00000000";
+			mavi<="00000000";
+			yesil<="00000000";
+
+		end if;
+	end if;
+                
+end process;
+end Behavioral;
+
+-----
+
+module RockyJourney(moveUP, moveDOWN, CLK, OE, SH_CP, ST_CP, reset, DS, KATOT); // here is the port list
+
+input CLK;
+
+output reg OE;
+output reg SH_CP;
+output reg ST_CP;
+output reg reset;
+output reg DS;
+output reg [7:0] KATOT;
+
+reg [23:0] colors;
+reg [7:0] red;
+reg [7:0] blue;
+reg [7:0] green;
+
+reg e;
+reg f;
+
+reg [7:0] counter;
+
+reg [8:0] i;
+reg [2:0] a;
+reg [9:0] d;
+
+//GAME LOGIC
+output reg [7:0] location;
+input moveUP, moveDOWN;
+
+initial begin
+	location <= 8'b00010000;
+end
+
+always @ (posedge moveUP)
+	location <= location << 1;
+//END OF GAME LOGIC
+
+always @ (posedge CLK) begin
+	counter <= counter + 1;
+end
+always @(posedge e) begin
+	if (i < 419)
+		i = i + 1;
+	else
+		i = 9'b000000000;
+end
+
+always @ (*) begin
+	
+	colors[23:16] <= red;
+	colors[15:8] <= green;
+	colors[7:0] <= blue;
+	
+	f <= counter[7];
+	e <= ~f;
+	
+	if (i < 3)
+		reset <= 1'b0;
+	else
+		reset <= 1'b1;
+		
+	if (i > 2 && i < 27)
+		DS <= colors[i-3];
+	else
+		DS <= 1'b0;
+		
+	if (i < 27) begin
+		SH_CP <= f;
+		ST_CP <= e;
+	end
+	else begin
+		SH_CP <= 1'b0;
+		ST_CP <= 1'b1;
+	end
+	
+	if (a == 0)
+		KATOT <= 8'b10000000;
+	else if (a == 1)
+		KATOT <= 8'b01000000;
+	else if (a == 2)
+		KATOT <= 8'b00100000;
+	else if (a == 3)
+		KATOT <= 8'b00010000;
+	else if (a == 4)
+		KATOT <= 8'b00001000;
+	else if (a == 5)
+		KATOT <= 8'b00000100;
+	else if (a == 6)
+		KATOT <= 8'b00000010;
+	else
+		KATOT <= 8'b00000001;
+		
+end
+
+always @ (posedge f) begin
+	if (i > 27 && i < 408)
+		OE <= 1'b0;
+	else
+		OE <= 1'b1;
+		
+	if (i == 409)
+		if (a < 8)
+			a <= a + 1;
+		else
+			a <= 3'b000;
+		
+	if (i == 409)
+		if (a == 7)
+			if (d >= 800)
+				d <= 10'b0000000000;
+			else
+				d <= d + 1;
+end
+	
+always @ (*) begin
+
+	if (a == 0) begin
+		red <= 8'b00000000;
+		blue <= 8'b00000000;
+		green <= location;
+	end
+	else if (a == 1) begin
+		red <= 8'b00000000;
+		blue <= 8'b00000000;
+		green <= location;
+	end
+	else if (a == 2) begin
+		red <= 8'b00000000;
+		blue <= 8'b00000000;
+		green <= location;
+	end
+	else if (a == 3) begin
+		red <= 8'b00000000;
+		blue <= 8'b00000000;
+		green <= location;
+	end
+	else if (a == 4) begin
+		red <= 8'b00000000;
+		blue <= 8'b00000000;
+		green <= location;
+	end
+	else if (a == 5) begin
+		red <= 8'b00000000;
+		blue <= 8'b00000000;
+		green <= location;
+	end
+	else if (a == 6) begin
+		red <= 8'b00000000;
+		blue <= 8'b00000000;
+		green <= location;
+	end
+	else begin
+		red <= 8'b00000000;
+		blue <= 8'b00000000;
+		green <= location;
+	end
+end
+	
+endmodule
+
+----
+
+
+NET "CLK" LOC="B8";
+
+NET "KATOT[0]" LOC="B2";
+NET "KATOT[1]" LOC="A3";
+NET "KATOT[2]" LOC="J3";
+NET "KATOT[3]" LOC="B5";
+NET "KATOT[4]" LOC="C6";
+NET "KATOT[5]" LOC="B6";
+NET "KATOT[6]" LOC="C5";
+NET "KATOT[7]" LOC="B7";
+
+NET "DS" LOC="A9";
+NET "OE" LOC="B9";
+NET "ST_CP" LOC="A10";
+NET "SH_CP" LOC="C9";
+NET "reset" LOC="C12";
+
+NET "moveUP" LOC="A7";
+NET "moveDOWN" LOC="M4";

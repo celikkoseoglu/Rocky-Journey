@@ -1,0 +1,1356 @@
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyIO.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyIO.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyIO.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyIO.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyIO.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyIO.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyIO.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyIO.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyIO.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyIO.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyIO.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyIO.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyIO.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyIO.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyIO.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyIO.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyIO.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyIO.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyIO.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyIO.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyIO.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyIO.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyIO.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyIO.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyIO.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyIO.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyIO.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyIO.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyIO.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyIO.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyIO.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyIO.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyIO.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyIO.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyIO.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 
+xst -intstyle ise -ifn "C:/RockyJourney/RockyJourney.xst" -ofn "C:/RockyJourney/RockyJourney.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc RockyJourneyMap.ucf -p xc3s100e-cp132-5 RockyJourney.ngc RockyJourney.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o RockyJourney_map.ncd RockyJourney.ngd RockyJourney.pcf 
+par -w -intstyle ise -ol high -t 1 RockyJourney_map.ncd RockyJourney.ncd RockyJourney.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml RockyJourney.twx RockyJourney.ncd -o RockyJourney.twr RockyJourney.pcf -ucf RockyJourneyMap.ucf 
+bitgen -intstyle ise -f RockyJourney.ut RockyJourney.ncd 

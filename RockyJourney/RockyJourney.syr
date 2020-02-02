@@ -1,0 +1,744 @@
+Release 14.7 - xst P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.08 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.08 secs
+ 
+--> Reading design: RockyJourney.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "RockyJourney.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "RockyJourney"
+Output Format                      : NGC
+Target Device                      : xc3s100e-5-cp132
+
+---- Source Options
+Top Module Name                    : RockyJourney
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "display_controller.v" in library work
+Compiling verilog file "RockyJourney.v" in library work
+Module <display_controller> compiled
+Module <RockyJourney> compiled
+No errors in compilation
+Analysis of file <"RockyJourney.prj"> succeeded.
+ 
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for module <RockyJourney> in library <work>.
+
+Analyzing hierarchy for module <display_controller> in library <work> with parameters.
+	N = "00000000000000000000000000010010"
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <RockyJourney>.
+INFO:Xst:1432 - Contents of array <gameClock> may be accessed with a negative index, causing simulation mismatch.
+Module <RockyJourney> is correct for synthesis.
+ 
+Analyzing module <display_controller> in library <work>.
+	N = 32'sb00000000000000000000000000010010
+Module <display_controller> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <display_controller>.
+    Related source file is "display_controller.v".
+    Found 16x7-bit ROM for signal <segments>.
+    Found 18-bit up counter for signal <count>.
+    Found 1-of-4 decoder for signal <cur_dig_AN>.
+    Found 4-bit 4-to-1 multiplexer for signal <current_digit>.
+    Summary:
+	inferred   1 ROM(s).
+	inferred   1 Counter(s).
+	inferred   4 Multiplexer(s).
+	inferred   1 Decoder(s).
+Unit <display_controller> synthesized.
+
+
+Synthesizing Unit <RockyJourney>.
+    Related source file is "RockyJourney.v".
+WARNING:Xst:653 - Signal <colors<15:8>> is used but never assigned. This sourceless signal will be automatically connected to value 00000000.
+INFO:Xst:2117 - HDL ADVISOR - Mux Selector <tempLocation> of Case statement line 0 was re-encoded using one-hot encoding. The case statement will be optimized (default statement optimization), but this optimization may lead to design initialization problems. To ensure the design works safely, you can:
+   	- add an 'INIT' attribute on signal <tempLocation> (optimization is then done without any risk)
+   	- use the attribute 'signal_encoding user' to avoid onehot optimization
+   	- use the attribute 'safe_implementation yes' to force XST to perform a safe (but less efficient) optimization
+    Found finite state machine <FSM_0> for signal <location>.
+    -----------------------------------------------------------------------
+    | States             | 8                                              |
+    | Transitions        | 16                                             |
+    | Inputs             | 1                                              |
+    | Outputs            | 8                                              |
+    | Clock              | gameClock<21>             (rising_edge)        |
+    | Clock enable       | location$not0000          (positive)           |
+    | Power Up State     | 010                                            |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Using one-hot encoding for signal <tempLocation>.
+    Found 8x8-bit ROM for signal <KATOT>.
+WARNING:Xst:737 - Found 8-bit latch for signal <blue>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+INFO:Xst:2371 - HDL ADVISOR - Logic functions respectively driving the data and gate enable inputs of this latch share common terms. This situation will potentially lead to setup/hold violations and, as a result, to simulation problems. This situation may come from an incomplete case statement (all selector values are not covered). You should carefully review if it was in your intentions to describe such a latch.
+    Found 1-bit register for signal <OE>.
+    Found 3-bit up counter for signal <a>.
+    Found 8-bit up counter for signal <counter>.
+    Found 9-bit comparator greater for signal <DS$cmp_gt0000> created at line 204.
+    Found 25-bit up counter for signal <gameClock>.
+    Found 9-bit up counter for signal <i>.
+    Found 9-bit comparator less for signal <i$cmp_lt0000> created at line 185.
+    Found 3-bit up counter for signal <obstacle1CTR>.
+    Found 3-bit up counter for signal <obstacle2CTR>.
+    Found 3-bit up counter for signal <obstacle3CTR>.
+    Found 8-bit register for signal <obstacleCenter1>.
+    Found 8-bit register for signal <obstacleCenter2>.
+    Found 8-bit register for signal <obstacleCenter3>.
+    Found 4-bit up counter for signal <obstacleCounter>.
+    Found 9-bit comparator greater for signal <OE$cmp_gt0000> created at line 238.
+    Found 9-bit comparator less for signal <OE$cmp_lt0000> created at line 238.
+    Found 8-bit 8-to-1 multiplexer for signal <red>.
+    Found 8-bit 4-to-1 multiplexer for signal <red$mux0001> created at line 265.
+    Found 8-bit 4-to-1 multiplexer for signal <red$mux0002> created at line 286.
+    Found 8-bit 4-to-1 multiplexer for signal <red$mux0003> created at line 306.
+    Found 8-bit 4-to-1 multiplexer for signal <red$mux0004> created at line 316.
+    Found 8-bit 4-to-1 multiplexer for signal <red$mux0005> created at line 326.
+    Found 9-bit comparator less for signal <reset$cmp_lt0000> created at line 199.
+    Found 1-bit register for signal <speed>.
+    Found 9-bit comparator less for signal <ST_CP$cmp_lt0000> created at line 209.
+    Found 8-bit register for signal <tempLocation>.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred   1 ROM(s).
+	inferred   8 Counter(s).
+	inferred  34 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+	inferred   6 Comparator(s).
+	inferred  49 Multiplexer(s).
+Unit <RockyJourney> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 2
+ 16x7-bit ROM                                          : 1
+ 8x8-bit ROM                                           : 1
+# Adders/Subtractors                                   : 1
+ 6-bit adder                                           : 1
+# Counters                                             : 9
+ 18-bit up counter                                     : 1
+ 25-bit up counter                                     : 1
+ 3-bit up counter                                      : 4
+ 4-bit up counter                                      : 1
+ 8-bit up counter                                      : 1
+ 9-bit up counter                                      : 1
+# Registers                                            : 6
+ 1-bit register                                        : 2
+ 8-bit register                                        : 4
+# Latches                                              : 1
+ 8-bit latch                                           : 1
+# Comparators                                          : 6
+ 9-bit comparator greater                              : 2
+ 9-bit comparator less                                 : 4
+# Multiplexers                                         : 8
+ 1-bit 25-to-1 multiplexer                             : 1
+ 4-bit 4-to-1 multiplexer                              : 1
+ 8-bit 4-to-1 multiplexer                              : 5
+ 8-bit 8-to-1 multiplexer                              : 1
+# Decoders                                             : 1
+ 1-of-4 decoder                                        : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <location/FSM> on signal <location[1:3]> with user encoding.
+-------------------
+ State | Encoding
+-------------------
+ 000   | 000
+ 001   | 001
+ 010   | 010
+ 011   | 011
+ 100   | 100
+ 101   | 101
+ 110   | 110
+ 111   | 111
+-------------------
+WARNING:Xst:1426 - The value init of the FF/Latch speed hinder the constant cleaning in the block RockyJourney.
+   You should achieve better results by setting this init to 1.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# FSMs                                                 : 1
+# ROMs                                                 : 2
+ 16x7-bit ROM                                          : 1
+ 8x8-bit ROM                                           : 1
+# Adders/Subtractors                                   : 1
+ 5-bit adder                                           : 1
+# Counters                                             : 9
+ 18-bit up counter                                     : 1
+ 25-bit up counter                                     : 1
+ 3-bit up counter                                      : 4
+ 4-bit up counter                                      : 1
+ 8-bit up counter                                      : 1
+ 9-bit up counter                                      : 1
+# Registers                                            : 34
+ Flip-Flops                                            : 34
+# Latches                                              : 1
+ 8-bit latch                                           : 1
+# Comparators                                          : 6
+ 9-bit comparator greater                              : 2
+ 9-bit comparator less                                 : 4
+# Multiplexers                                         : 8
+ 1-bit 25-to-1 multiplexer                             : 1
+ 4-bit 4-to-1 multiplexer                              : 1
+ 8-bit 4-to-1 multiplexer                              : 5
+ 8-bit 8-to-1 multiplexer                              : 1
+# Decoders                                             : 1
+ 1-of-4 decoder                                        : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1426 - The value init of the FF/Latch speed hinder the constant cleaning in the block RockyJourney.
+   You should achieve better results by setting this init to 1.
+INFO:Xst:2146 - In block <RockyJourney>, Counter <gameClock> <counter> are equivalent, XST will keep only <gameClock>.
+INFO:Xst:2146 - In block <RockyJourney>, Counter <obstacle1CTR> <obstacle2CTR> <obstacle3CTR> are equivalent, XST will keep only <obstacle1CTR>.
+
+Optimizing unit <RockyJourney> ...
+
+Optimizing unit <display_controller> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block RockyJourney, actual ratio is 23.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 99
+ Flip-Flops                                            : 99
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : RockyJourney.ngr
+Top Level Output File Name         : RockyJourney
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 31
+
+Cell Usage :
+# BELS                             : 523
+#      GND                         : 1
+#      INV                         : 7
+#      LUT1                        : 49
+#      LUT2                        : 10
+#      LUT2_D                      : 1
+#      LUT3                        : 98
+#      LUT3_D                      : 3
+#      LUT3_L                      : 1
+#      LUT4                        : 182
+#      LUT4_D                      : 5
+#      LUT4_L                      : 6
+#      MUXCY                       : 49
+#      MUXF5                       : 49
+#      MUXF6                       : 9
+#      VCC                         : 1
+#      XORCY                       : 52
+# FlipFlops/Latches                : 107
+#      FD                          : 35
+#      FDC                         : 18
+#      FDE                         : 31
+#      FDR                         : 11
+#      FDRE                        : 4
+#      LD                          : 8
+# Clock Buffers                    : 2
+#      BUFG                        : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 30
+#      IBUF                        : 5
+#      OBUF                        : 25
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s100ecp132-5 
+
+ Number of Slices:                      195  out of    960    20%  
+ Number of Slice Flip Flops:            107  out of   1920     5%  
+ Number of 4 input LUTs:                362  out of   1920    18%  
+ Number of IOs:                          31
+ Number of bonded IOBs:                  31  out of     83    37%  
+ Number of GCLKs:                         2  out of     24     8%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+------------------------------------+------------------------+-------+
+Clock Signal                        | Clock buffer(FF name)  | Load  |
+------------------------------------+------------------------+-------+
+gameClock_7                         | NONE(OE)               | 13    |
+_COND_21(Madd__COND_1_Madd_cy<2>1:O)| BUFG(*)(tempLocation_0)| 40    |
+CLK                                 | BUFGP                  | 43    |
+gameClock_21                        | NONE(location_FSM_FFd3)| 3     |
+KATOT_6_OBUF(KATOT<6>1:O)           | NONE(*)(blue_0)        | 8     |
+------------------------------------+------------------------+-------+
+(*) These 2 clock signal(s) are generated by combinatorial logic,
+and XST is not able to identify which are the primary clock signals.
+Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+CLEAR_DISPLAY                      | IBUF                   | 18    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 8.859ns (Maximum Frequency: 112.874MHz)
+   Minimum input arrival time before clock: 5.933ns
+   Maximum output required time after clock: 13.022ns
+   Maximum combinational path delay: 5.670ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'gameClock_7'
+  Clock period: 8.859ns (frequency: 112.874MHz)
+  Total number of paths / destination ports: 170 / 25
+-------------------------------------------------------------------------
+Delay:               4.430ns (Levels of Logic = 3)
+  Source:            i_5 (FF)
+  Destination:       OE (FF)
+  Source Clock:      gameClock_7 falling
+  Destination Clock: gameClock_7 rising
+
+  Data Path: i_5 to OE
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q             10   0.514   0.902  i_5 (i_5)
+     LUT4:I0->O            1   0.612   0.000  OE_and000040_SW11 (OE_and000040_SW1)
+     MUXF5:I0->O           1   0.278   0.360  OE_and000040_SW1_f5 (N85)
+     LUT4:I3->O            1   0.612   0.357  OE_and000054 (OE_and0000)
+     FDR:R                     0.795          OE
+    ----------------------------------------
+    Total                      4.430ns (2.811ns logic, 1.619ns route)
+                                       (63.5% logic, 36.5% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock '_COND_21'
+  Clock period: 7.211ns (frequency: 138.684MHz)
+  Total number of paths / destination ports: 1526 / 64
+-------------------------------------------------------------------------
+Delay:               7.211ns (Levels of Logic = 6)
+  Source:            obstacleCenter1_4 (FF)
+  Destination:       obstacleCenter3_0 (FF)
+  Source Clock:      _COND_21 rising
+  Destination Clock: _COND_21 rising
+
+  Data Path: obstacleCenter1_4 to obstacleCenter3_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q             10   0.514   0.819  obstacleCenter1_4 (obstacleCenter1_4)
+     LUT4:I1->O            1   0.612   0.426  _COND_39 (_COND_39)
+     LUT4:I1->O            3   0.612   0.454  _COND_336 (_COND_3)
+     LUT4_D:I3->LO         1   0.612   0.103  obstacleCounter_and00001 (N241)
+     LUT4:I3->O            6   0.612   0.572  obstacleCenter3_mux0000<2>15 (N01)
+     LUT4_D:I3->O          2   0.612   0.383  obstacleCenter3_mux0000<0>11 (N58)
+     LUT4:I3->O            1   0.612   0.000  obstacleCenter3_mux0000<7>1 (obstacleCenter3_mux0000<7>)
+     FDE:D                     0.268          obstacleCenter3_0
+    ----------------------------------------
+    Total                      7.211ns (4.454ns logic, 2.757ns route)
+                                       (61.8% logic, 38.2% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CLK'
+  Clock period: 4.139ns (frequency: 241.604MHz)
+  Total number of paths / destination ports: 496 / 43
+-------------------------------------------------------------------------
+Delay:               4.139ns (Levels of Logic = 25)
+  Source:            gameClock_1 (FF)
+  Destination:       gameClock_24 (FF)
+  Source Clock:      CLK rising
+  Destination Clock: CLK rising
+
+  Data Path: gameClock_1 to gameClock_24
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               1   0.514   0.509  gameClock_1 (gameClock_1)
+     LUT1:I0->O            1   0.612   0.000  Mcount_gameClock_cy<1>_rt (Mcount_gameClock_cy<1>_rt)
+     MUXCY:S->O            1   0.404   0.000  Mcount_gameClock_cy<1> (Mcount_gameClock_cy<1>)
+     MUXCY:CI->O           1   0.052   0.000  Mcount_gameClock_cy<2> (Mcount_gameClock_cy<2>)
+     MUXCY:CI->O           1   0.052   0.000  Mcount_gameClock_cy<3> (Mcount_gameClock_cy<3>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_gameClock_cy<4> (Mcount_gameClock_cy<4>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_gameClock_cy<5> (Mcount_gameClock_cy<5>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_gameClock_cy<6> (Mcount_gameClock_cy<6>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_gameClock_cy<7> (Mcount_gameClock_cy<7>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_gameClock_cy<8> (Mcount_gameClock_cy<8>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_gameClock_cy<9> (Mcount_gameClock_cy<9>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_gameClock_cy<10> (Mcount_gameClock_cy<10>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_gameClock_cy<11> (Mcount_gameClock_cy<11>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_gameClock_cy<12> (Mcount_gameClock_cy<12>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_gameClock_cy<13> (Mcount_gameClock_cy<13>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_gameClock_cy<14> (Mcount_gameClock_cy<14>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_gameClock_cy<15> (Mcount_gameClock_cy<15>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_gameClock_cy<16> (Mcount_gameClock_cy<16>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_gameClock_cy<17> (Mcount_gameClock_cy<17>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_gameClock_cy<18> (Mcount_gameClock_cy<18>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_gameClock_cy<19> (Mcount_gameClock_cy<19>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_gameClock_cy<20> (Mcount_gameClock_cy<20>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_gameClock_cy<21> (Mcount_gameClock_cy<21>)
+     MUXCY:CI->O           1   0.051   0.000  Mcount_gameClock_cy<22> (Mcount_gameClock_cy<22>)
+     MUXCY:CI->O           0   0.051   0.000  Mcount_gameClock_cy<23> (Mcount_gameClock_cy<23>)
+     XORCY:CI->O           1   0.699   0.000  Mcount_gameClock_xor<24> (Result<24>)
+     FD:D                      0.268          gameClock_24
+    ----------------------------------------
+    Total                      4.139ns (3.630ns logic, 0.509ns route)
+                                       (87.7% logic, 12.3% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'gameClock_21'
+  Clock period: 2.544ns (frequency: 393.074MHz)
+  Total number of paths / destination ports: 6 / 3
+-------------------------------------------------------------------------
+Delay:               2.544ns (Levels of Logic = 1)
+  Source:            location_FSM_FFd3 (FF)
+  Destination:       location_FSM_FFd3 (FF)
+  Source Clock:      gameClock_21 rising
+  Destination Clock: gameClock_21 rising
+
+  Data Path: location_FSM_FFd3 to location_FSM_FFd3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q             11   0.514   0.793  location_FSM_FFd3 (location_FSM_FFd3)
+     INV:I->O              1   0.612   0.357  location_FSM_FFd3-In1_INV_0 (location_FSM_FFd3-In)
+     FDE:D                     0.268          location_FSM_FFd3
+    ----------------------------------------
+    Total                      2.544ns (1.394ns logic, 1.150ns route)
+                                       (54.8% logic, 45.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock '_COND_21'
+  Total number of paths / destination ports: 67 / 48
+-------------------------------------------------------------------------
+Offset:              5.933ns (Levels of Logic = 4)
+  Source:            RESET_GAME (PAD)
+  Destination:       obstacleCenter1_0 (FF)
+  Destination Clock: _COND_21 rising
+
+  Data Path: RESET_GAME to obstacleCenter1_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             4   1.106   0.651  RESET_GAME_IBUF (RESET_GAME_IBUF)
+     LUT4:I0->O           27   0.612   1.224  obstacleCenter1_mux0000<3>11 (N14)
+     LUT3:I0->O            9   0.612   0.849  obstacleCenter1_mux0000<1>11 (N57)
+     LUT4:I0->O            1   0.612   0.000  obstacleCenter2_mux0000<7>1 (obstacleCenter2_mux0000<7>)
+     FDE:D                     0.268          obstacleCenter2_0
+    ----------------------------------------
+    Total                      5.933ns (3.210ns logic, 2.723ns route)
+                                       (54.1% logic, 45.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'gameClock_21'
+  Total number of paths / destination ports: 8 / 5
+-------------------------------------------------------------------------
+Offset:              3.173ns (Levels of Logic = 2)
+  Source:            moveUP (PAD)
+  Destination:       location_FSM_FFd3 (FF)
+  Destination Clock: gameClock_21 rising
+
+  Data Path: moveUP to location_FSM_FFd3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             3   1.106   0.520  moveUP_IBUF (moveUP_IBUF)
+     LUT2:I1->O            3   0.612   0.451  location_not00011 (location_not0001)
+     FDE:CE                    0.483          location_FSM_FFd3
+    ----------------------------------------
+    Total                      3.173ns (2.201ns logic, 0.972ns route)
+                                       (69.4% logic, 30.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'gameClock_7'
+  Total number of paths / destination ports: 148 / 13
+-------------------------------------------------------------------------
+Offset:              10.679ns (Levels of Logic = 7)
+  Source:            i_5 (FF)
+  Destination:       DS (PAD)
+  Source Clock:      gameClock_7 falling
+
+  Data Path: i_5 to DS
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q             10   0.514   0.902  i_5 (i_5)
+     LUT2:I0->O            2   0.612   0.449  DS1128 (DS1128)
+     LUT4:I1->O            1   0.612   0.360  DS1344 (DS1344)
+     LUT4:I3->O            1   0.612   0.387  DS1381 (DS1381)
+     LUT4:I2->O            1   0.612   0.360  DS1428_SW0 (N103)
+     LUT4:I3->O            1   0.612   0.509  DS1428 (DS1428)
+     LUT4:I0->O            1   0.612   0.357  DS1444 (DS_OBUF)
+     OBUF:I->O                 3.169          DS_OBUF (DS)
+    ----------------------------------------
+    Total                     10.679ns (7.355ns logic, 3.324ns route)
+                                       (68.9% logic, 31.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'KATOT_6_OBUF'
+  Total number of paths / destination ports: 8 / 1
+-------------------------------------------------------------------------
+Offset:              9.404ns (Levels of Logic = 6)
+  Source:            blue_2 (LATCH)
+  Destination:       DS (PAD)
+  Source Clock:      KATOT_6_OBUF falling
+
+  Data Path: blue_2 to DS
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LD:G->Q               1   0.588   0.426  blue_2 (blue_2)
+     LUT4:I1->O            1   0.612   0.426  DS1226 (DS1226)
+     LUT4:I1->O            1   0.612   0.509  DS1277 (DS1277)
+     LUT4:I0->O            1   0.612   0.360  DS1428_SW0 (N103)
+     LUT4:I3->O            1   0.612   0.509  DS1428 (DS1428)
+     LUT4:I0->O            1   0.612   0.357  DS1444 (DS_OBUF)
+     OBUF:I->O                 3.169          DS_OBUF (DS)
+    ----------------------------------------
+    Total                      9.404ns (6.817ns logic, 2.587ns route)
+                                       (72.5% logic, 27.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock '_COND_21'
+  Total number of paths / destination ports: 580 / 8
+-------------------------------------------------------------------------
+Offset:              13.022ns (Levels of Logic = 10)
+  Source:            obstacle1CTR_2 (FF)
+  Destination:       DS (PAD)
+  Source Clock:      _COND_21 rising
+
+  Data Path: obstacle1CTR_2 to DS
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q              91   0.514   1.241  obstacle1CTR_2 (obstacle1CTR_2)
+     LUT2_D:I0->O         10   0.612   0.753  red_mux0002<0>11 (N16)
+     LUT4:I3->O            1   0.612   0.360  red_mux0000<0>_SW0 (N39)
+     LUT4:I3->O            1   0.612   0.387  red_mux0000<0> (red_mux0000<0>)
+     LUT3:I2->O            1   0.612   0.000  Mmux_red_4 (Mmux_red_4)
+     MUXF5:I1->O           1   0.278   0.000  Mmux_red_3_f5 (Mmux_red_3_f5)
+     MUXF6:I1->O           1   0.451   0.360  Mmux_red_2_f6 (red<0>)
+     LUT4:I3->O            1   0.612   0.509  DS161 (DS161)
+     LUT4:I0->O            1   0.612   0.360  DS194 (DS194)
+     LUT4:I3->O            1   0.612   0.357  DS1444 (DS_OBUF)
+     OBUF:I->O                 3.169          DS_OBUF (DS)
+    ----------------------------------------
+    Total                     13.022ns (8.696ns logic, 4.326ns route)
+                                       (66.8% logic, 33.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'CLK'
+  Total number of paths / destination ports: 18 / 10
+-------------------------------------------------------------------------
+Offset:              5.501ns (Levels of Logic = 2)
+  Source:            display_controller/count_16 (FF)
+  Destination:       DISPLAY_POWER<6> (PAD)
+  Source Clock:      CLK rising
+
+  Data Path: display_controller/count_16 to DISPLAY_POWER<6>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              9   0.514   0.849  display_controller/count_16 (display_controller/count_16)
+     LUT3:I0->O            1   0.612   0.357  display_controller/AN<3>1 (DISPLAY_GROUND_0_OBUF)
+     OBUF:I->O                 3.169          DISPLAY_GROUND_0_OBUF (DISPLAY_GROUND<0>)
+    ----------------------------------------
+    Total                      5.501ns (4.295ns logic, 1.206ns route)
+                                       (78.1% logic, 21.9% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               5.670ns (Levels of Logic = 3)
+  Source:            DISPLAY_ENABLED (PAD)
+  Destination:       DISPLAY_GROUND<0> (PAD)
+
+  Data Path: DISPLAY_ENABLED to DISPLAY_GROUND<0>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   1.106   0.426  DISPLAY_ENABLED_IBUF (DISPLAY_ENABLED_IBUF)
+     LUT3:I1->O            1   0.612   0.357  display_controller/AN<3>1 (DISPLAY_GROUND_0_OBUF)
+     OBUF:I->O                 3.169          DISPLAY_GROUND_0_OBUF (DISPLAY_GROUND<0>)
+    ----------------------------------------
+    Total                      5.670ns (4.887ns logic, 0.783ns route)
+                                       (86.2% logic, 13.8% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 4.00 secs
+Total CPU time to Xst completion: 3.73 secs
+ 
+--> 
+
+Total memory usage is 258236 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    8 (   0 filtered)
+Number of infos    :    6 (   0 filtered)
+
